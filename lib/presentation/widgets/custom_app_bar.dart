@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:aerium/core/utils/functions.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/core/utils/functions.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 import 'circular_container.dart';
 

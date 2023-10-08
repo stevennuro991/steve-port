@@ -1,11 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:aerium/presentation/pages/about/about_page.dart';
-import 'package:aerium/presentation/pages/certification/certification_page.dart';
-import 'package:aerium/presentation/pages/experience/experience_page.dart';
-import 'package:aerium/presentation/pages/home/home_page.dart';
-import 'package:aerium/presentation/pages/portfolio/portfolio_page.dart';
-import 'package:aerium/presentation/pages/project_detail/project_detail.dart';
+import 'package:nnuroportfolio/presentation/pages/about/about_page.dart';
+import 'package:nnuroportfolio/presentation/pages/home/home_page.dart';
+import 'package:nnuroportfolio/presentation/pages/portfolio/portfolio_page.dart';
+import 'package:nnuroportfolio/presentation/pages/project_detail/project_detail.dart';
 
 typedef PathWidgetBuilder = Widget Function(
     BuildContext, String? /*Map<String, String>*/);
@@ -52,14 +50,7 @@ class RouteConfiguration {
       r'^' + ProjectDetailPage.projectDetailPageRoute,
       (context, matches) => const ProjectDetailPage(),
     ),
-    Path(
-      r'^' + ExperiencePage.experiencePageRoute,
-      (context, matches) => const ExperiencePage(),
-    ),
-    Path(
-      r'^' + CertificationPage.certificationPageRoute,
-      (context, matches) => const CertificationPage(),
-    ),
+   
     Path(
       r'^' + HomePage.homePageRoute,
       (context, matches) => const HomePage(),

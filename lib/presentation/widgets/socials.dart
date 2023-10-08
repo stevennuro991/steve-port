@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:aerium/core/utils/functions.dart';
-import 'package:aerium/presentation/widgets/horizontal_bar.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/core/utils/functions.dart';
+import 'package:nnuroportfolio/presentation/widgets/horizontal_bar.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 class Socials extends StatelessWidget {
   Socials({
@@ -63,19 +63,7 @@ class Socials extends StatelessWidget {
                   },
                   color: color,
                 ),
-                HorizontalBar(
-                  width: Sizes.WIDTH_32,
-                  color: barColor,
-                  margin: EdgeInsets.symmetric(vertical: Sizes.MARGIN_4),
-                ),
-                SocialButton(
-                  icon: FontAwesomeIcons.telegramPlane,
-                  alignment: alignment,
-                  onPressed: () {
-                    Functions.launchUrl(StringConst.TELEGRAM_URL);
-                  },
-                  color: color,
-                ),
+            
               ],
             ),
           )
@@ -101,32 +89,6 @@ class Socials extends StatelessWidget {
                   alignment: alignment,
                   onPressed: () {
                     Functions.launchUrl(StringConst.LINKED_IN_URL);
-                  },
-                  color: color,
-                ),
-                VerticalDivider(
-                  width: Sizes.WIDTH_8,
-                  thickness: 2,
-                  color: barColor,
-                ),
-                SocialButton(
-                  icon: FontAwesomeIcons.twitter,
-                  alignment: alignment,
-                  onPressed: () {
-                    Functions.launchUrl(StringConst.TWITTER_URL);
-                  },
-                  color: color,
-                ),
-                VerticalDivider(
-                  width: Sizes.WIDTH_8,
-                  thickness: 2,
-                  color: barColor,
-                ),
-                SocialButton(
-                  icon: FontAwesomeIcons.telegramPlane,
-                  alignment: alignment,
-                  onPressed: () {
-                    Functions.launchUrl(StringConst.TELEGRAM_URL);
                   },
                   color: color,
                 ),

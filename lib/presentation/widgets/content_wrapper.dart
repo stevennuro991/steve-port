@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:aerium/core/layout/adaptive.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/core/layout/adaptive.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 class ContentWrapper extends StatelessWidget {
   ContentWrapper({

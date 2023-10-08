@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 class CustomTextFormField extends StatelessWidget {
   final TextEditingController? controller;
@@ -58,7 +58,7 @@ class CustomTextFormField extends StatelessWidget {
             theme.textTheme.subtitle1!.copyWith(color: AppColors.primaryColor),
         validator: validator,
         onTap: onTap,
-        autovalidate: true,
+  
         maxLines: maxLines,
         decoration: InputDecoration(
           border: border,

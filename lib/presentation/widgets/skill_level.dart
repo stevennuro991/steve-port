@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:aerium/presentation/widgets/skill_progress_painter.dart';
-import 'package:aerium/presentation/widgets/spaces.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/presentation/widgets/skill_progress_painter.dart';
+import 'package:nnuroportfolio/presentation/widgets/spaces.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 class SkillLevel extends StatelessWidget {
   SkillLevel({

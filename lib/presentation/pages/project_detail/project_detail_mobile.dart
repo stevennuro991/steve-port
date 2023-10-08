@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:aerium/core/layout/adaptive.dart';
-import 'package:aerium/core/utils/functions.dart';
-import 'package:aerium/presentation/pages/portfolio/portfolio_page.dart';
-import 'package:aerium/presentation/widgets/app_drawer.dart';
-import 'package:aerium/presentation/widgets/content_wrapper.dart';
-import 'package:aerium/presentation/widgets/custom_app_bar.dart';
-import 'package:aerium/presentation/widgets/flicker_text_animation.dart';
-import 'package:aerium/presentation/widgets/project_cover.dart';
-import 'package:aerium/presentation/widgets/socials.dart';
-import 'package:aerium/presentation/widgets/spaces.dart';
-import 'package:aerium/presentation/widgets/void.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/core/layout/adaptive.dart';
+import 'package:nnuroportfolio/core/utils/functions.dart';
+import 'package:nnuroportfolio/presentation/pages/portfolio/portfolio_page.dart';
+import 'package:nnuroportfolio/presentation/widgets/app_drawer.dart';
+import 'package:nnuroportfolio/presentation/widgets/content_wrapper.dart';
+import 'package:nnuroportfolio/presentation/widgets/custom_app_bar.dart';
+import 'package:nnuroportfolio/presentation/widgets/flicker_text_animation.dart';
+import 'package:nnuroportfolio/presentation/widgets/project_cover.dart';
+import 'package:nnuroportfolio/presentation/widgets/socials.dart';
+import 'package:nnuroportfolio/presentation/widgets/spaces.dart';
+import 'package:nnuroportfolio/presentation/widgets/void.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 class ProjectDetailMobile extends StatefulWidget {
   ProjectDetailMobile({
@@ -292,6 +292,25 @@ class _ProjectDetailMobileState extends State<ProjectDetailMobile>
                                 },
                               )
                             : Emptiness(),
+                             widget.projectDetails!.isOnPlayStore!
+                                  ? InkWell(
+                                      onTap: () {
+                                        Functions.launchUrl(
+                                          widget.projectDetails!.appStoreUrl!,
+                                        );
+                                      },
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(
+                                          Sizes.PADDING_8,
+                                        ),
+                                        child: Image.asset(
+                                          ImagePath.APPSTORE,
+                                          width: 24,
+                                          height: 24,
+                                        ),
+                                      ),
+                                    )
+                                  : Emptiness(),
                       ],
                     ),
                   ],

@@ -2,9 +2,9 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "Aerium";
-  static const String APP_TITLE = "David Cobbina Portfolio";
-  static const String SITE_URL = "https://davidcobbina.com";
+  static const String APP_NAME = "Nnuro";
+  static const String APP_TITLE = "Steven Nnuro Portfolio";
+
 
   static const String HOME = "Home";
   static const String ABOUT_ME = "About Me";
@@ -16,14 +16,14 @@ class StringConst {
   static const String PHONE_NUMBER = "Phone Number";
   static const String RESUME = "Resume";
   static const String CERTIFICATIONS = "Certifications";
-  static const String EMAIL_VALUE = "davidcobbina47@gmail.com";
+  static const String EMAIL_VALUE = "stevennuro991@gmail.com";
 
   static const String MESSAGE_ME = "Message me";
   static const String GET_IN_TOUCH = "Get in touch";
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
   static const String BUILT_WITH = "Built with ";
-  static const String DEV_EMAIL = "davidcobbina47@gmail.com";
+  static const String DEV_EMAIL = "stevennuro991@gmail.com";
   static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
 
   static const String KEY_SKILLS = "KEY SKILLS";
@@ -36,18 +36,18 @@ class StringConst {
   static const String PROJECT_NAME = "Project Name";
 
   static const String INTRO = "Hi, my name is";
-  static const String DEV_NAME = "David Cobbina";
+  static const String DEV_NAME = "Steven Nnuro";
   static const String PUNCH_LINE = "I build things with flutter";
   static const String SPECIALITY = "FLUTTER DEV";
   static const String DESIGNED_IN = "Made in Ghana with ";
   static const String DESIGNED_BY = "Designed by Pavel G. ";
-  static const String BUILT_BY = "Built by David Cobbina ";
+  static const String BUILT_BY = "Built by Steven Nnuro ";
 
   static const String ABOUT_DEV_TEXT =
-      "I'm a software engineer based in Ghana, specializing in building high quality mobile and web applications with a strong passion for opensource work. My goal is to always build pixel perfect high performant applications that provides users with a rich experience.";
+      "I'm a software engineer based in Ghana, specializing in building high quality mobile and web applications with a strong passion for open source work. My goal is to always build pixel perfect high performant applications that provides users with a rich experience.";
 
   static const String EDUCATION_TEXT =
-      "I am self taught programmer who graduated from Kwame Nkrumah Univeristy of Science Technology with a degree in Agricultural Engineering. I love learning and writing computer programs.";
+      "I am self taught programmer who graduated from Kwame Nkrumah Univeristy of Science Technology with a degree in Computer Engineering. I love learning and writing computer programs.";
   //Form Hint Texts
   static const String NAME_HINT_TEXT = "Name";
   static const String PHONE_HINT_TEXT = "Phone (Optional)";
@@ -83,13 +83,10 @@ class StringConst {
   static const String CERTIFICATION_PAGE = "/certifications";
 
   //Socials
-  static const String GITHUB_URL = "https://github.com/david-legend";
+  static const String GITHUB_URL = "https://github.com/stevennuro991";
   static const String LINKED_IN_URL =
-      "https://www.linkedin.com/in/david-cobbina-7b0226119";
-  static const String TWITTER_URL = "https://twitter.com/DavidLegend47";
-  static const String INSTAGRAM_URL =
-      "https://www.instagram.com/david_legend_47";
-  static const String TELEGRAM_URL = "https://t.me/DavidLegend";
+      "https://www.linkedin.com/in/steven-nnuro/";
+  static const String TWITTER_URL = "https://twitter.com/sknnuro";
 
   //Contacts
   static const String CONNECT = "Connect with me";
@@ -98,7 +95,7 @@ class StringConst {
   static const String TWITTER = "TWITTER";
   static const String INSTAGRAM = "INSTAGRAM";
   static const String TELEGRAM = "TELEGRAM";
-
+ 
   //Certificate Urls
   static const String ASSOCIATE_ANDROID_DEV_URL =
       "https://www.credential.net/b296da88-d6be-4bb5-9756-b13efea3a421";
@@ -161,7 +158,7 @@ class StringConst {
   static const String DURATION_3 = "August 2019 - April 2020";
 
   static const String COMPANY_4 = "Freelancer";
-  static const String COMPANY_4_URL = SITE_URL;
+  // static const String COMPANY_4_URL = SITE_URL;
   static const String POSITION_4 = "Software Engineer";
   static const String COMPANY_4_ROLE_1 =
       "Work collaboratively with a user experience designer to bring mobile and progressive apps to life using Flutter.";
@@ -175,13 +172,12 @@ class StringConst {
   static const String DURATION_4 = "May 2020 - Current";
 
   //Portfolio, Projects
-  static const String LOGIN_CATALOG = "Login Catalog";
-  static const String LOGIN_CATALOG_SUBTITLE =
-      "A beautiful catalog of login designs";
-  static const String LOGIN_CATALOG_DETAIL =
-      "Login Catalog is a beautiful catalog of login designs built with flutter. The goal is to catalog as many as a 1000 different login/Signup designs to help flutter devs get right to the most important part of their app. Another reason behind the project is to show that flutter can be used to build beautiful and exquisite UI.";
-  static const String LOGIN_CATALOG_GITHUB_URL =
-      "https://github.com/david-legend/login_catalog";
+  static const String LIFELINE = "Lifeline For Childhood Cancer Ghana";
+  static const String LIFELINE_SUBTITLE ="We raise funds for treatment and care of children with cancer";
+  static const String LIFELINE_DETAIL =
+      "Lifeline for Childhood Cancer in Ghana (LCCG) is a non-profit organization dedicated to making childhood cancer control a national health priority, providing support to families affected by childhood cancer, creating awareness about childhood cancer among health workers and the general public and increasing access to optimal treatment for cure.";
+   static const String LIFELINE_WEB = "https://lifelineforchildhoodcancerghana.org/";
+
 
   static const String VYBZ = "Vybz";
   static const String VYBZ_SUBTITLE =
@@ -197,30 +193,26 @@ class StringConst {
       "Colossal Toons is an animation production company that create exciting and fun to watch animations. The purpose of the app is to help centralize all the animations and stories made by the company. The app is also an easy and convenient way to let all the Colossal Toons fans out there get access to. This app was worked by David Cobbina, Stephen Opoku (https://www.linkedin.com/in/stephen-opoku-damoah/) and Eric Asare (https://www.linkedin.com/in/eric-asare-2550a7142/). ";
   static const String COLOSSAL_TOONS_PLAYSTORE_URL = "";
 
-  static const String FOODY_BITE = "FoodyBite";
-  static const String FOODY_BITE_SUBTITLE =
-      "A useful free ui kit design for food related apps";
-  static const String FOODY_BITE_DETAIL =
-      "Foodybite is a free ui kit designed by Yagnesh Pipariya and built by David Cobbina. The goal of this project is to fast track development and inspire developers who want to build a food related app. FoodyBite was beautifully crafted with flutter. You can find the foodybite designs at https://www.behance.net/gallery/81858385/Foodybite-Free-UI-Kit-for-Adobe-XD";
-  static const String FOODY_BITE_GITHUB_URL =
-      "https://github.com/david-legend/foodybite";
+  static const String MYASSEMBLY = "MyAssembly";
+  static const String MYASSEMBLY_SUBTITLE = "Property Rate";
+  static const String MYASSEMBLY_DETAIL = "A rate imposed on immovable property at a specified rate on the rateable value of a property. The amount varies between specified areas of a district and in respect of property use for different purposes (Commercial, Residential or Mixed use) and area classifications (1st Class, 2nd Class, 3rd Class. Property rate is an annual rate.";
+   static const String myAssembly_PlayStore_URL ="https://play.google.com/store/apps/details?id=myassembly.gov.gh&hl=en_US";
+ 
 
-  static const String ONBOARDING_APP = "Onboarding App";
-  static const String ONBOARDING_APP_SUBTITLE = "An onboarding experience app";
-  static const String ONBOARDING_APP_DETAIL =
-      "Onboarding app is an app that takes you through an elegant onboarding experience. It helps the user understand the basic functionality of the app before using it and its free to use. Check it out on my github page";
-  static const String ONBOARDING_APP_GITHUB_URL =
-      "https://github.com/david-legend/onboarding-app";
+  static const String WeGoo_Delivery = "WeGoo Delivery App";
+  static const String WeGoo_Delivery_SUBTITLE = "An onboarding experience app";
+  static const String WeGoo_Delivery_DETAIL ="WeGoo enables you to deliver your parcels, clothing, cosmetics and much more to your customers locally and internationally. All your best online shops and merchants are delivering their products with WeGoo. We are ready to give you a better customer experience!Now;Anywhere and anytime, Just tap WeGoo!We deliver happiness";
+  static const String WeGoo_Delivery_PlayStore_URL ="https://play.google.com/store/apps/details?id=com.gootechnologies.wegoo&pcampaignid=web_share";
+  static const String WeGoo_Delivery_APPStore_URL ="https://apps.apple.com/us/app/wegoo-ship-locally-globally/id1547171173";
 
-  static const String OTP_TEXT_FIELD = "Otp Textfield";
-  static const String OTP_TEXT_FIELD_SUBTITLE =
-      "A useful flutter package for helping with otp";
-  static const String OTP_TEXT_FIELD_DETAIL =
-      "Otp text field is a simple flutter package built to help flutter devs easily implement OTP in their app. It is highly customizable and very easy to use.";
-  static const String OTP_TEXT_FIELD_GITHUB_URL =
-      "https://github.com/david-legend/otp_textfield";
-  static const String OTP_TEXT_FIELD_WEB_URL =
-      "https://pub.dev/packages/flutter_otp_text_field";
+  static const String MyFitta = "MyFitta";
+  static const String MyFitta_SUBTITLE =
+      "MyFitta... No Stress, No Hussle to keep your Auto moving!";
+  static const String MyFitta_DETAIL =
+      "MyFitta brings to you a one-stop shop for all your auto service needs and it's just a click away. We provide you with assured services from providers who understand and apply safety in all their deliveries. Get a local mechanic to attend to your vehicle, anywhere you are! Take control of your spare part procurement and have quality spare parts delivered to you or your mechanic at your convenience! And for the times where you simply need a competent driver for a trip or an occasion, get a trained, qualified and certified driver just for as long as you need!";
+   static const String MY_FITTA_PlayStore_URL ="https://play.google.com/store/apps/details?id=com.cbsg.myfitta.user";
+   static const String MY_FITTA_APPStore_URL ="https://apps.apple.com/gh/app/myfitta/id1665855226";
+
 
   static const String FINOPP = "Finopp";
   static const String FINOPP_SUBTITLE =
@@ -244,14 +236,7 @@ class StringConst {
       "B-equip is well established technical support company registered in Ghana. The company is well versed in CAT machine repairs, troubleshooting, component change out, mid-life service and more. This website was built to show their services and portfolio.";
   static const String BEQUIP_LOGISTICS_WEB_URL = "http://bequiplogisticsgh.com";
 
-  static const String AERIUM = "Aerium";
-  static const String AERIUM_SUBTITLE =
-      "A progressive web app for showcasing your portfolio.";
-  static const String AERIUM_DETAIL =
-      "As you can tell, you're currently on Aerium right now. Aerium is an elegant progressive web app built to help developers tell their story by showcasing their works and skills.";
-  static const String AERIUM_GITHUB_URL =
-      "https://github.com/david-legend/aerium";
-  static const String AERIUM_WEB_URL = SITE_URL;
+ 
 
   static const String LEARN_UPP = "LearnUpp";
   static const String LEARN_UPP_SUBTITLE = "A Learning app concept";

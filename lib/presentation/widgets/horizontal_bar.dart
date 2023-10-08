@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 class HorizontalBar extends StatelessWidget {
   HorizontalBar({

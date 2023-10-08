@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:aerium/presentation/widgets/spaces.dart';
+import 'package:nnuroportfolio/presentation/widgets/spaces.dart';
 
-import 'package:aerium/presentation/widgets/horizontal_bar.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/presentation/widgets/horizontal_bar.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 class PortfolioCard extends StatefulWidget {
   PortfolioCard({

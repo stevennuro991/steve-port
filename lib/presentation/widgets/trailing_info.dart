@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:aerium/core/utils/functions.dart';
-import 'package:aerium/presentation/widgets/circular_container.dart';
-import 'package:aerium/values/values.dart';
+import 'package:nnuroportfolio/core/utils/functions.dart';
+import 'package:nnuroportfolio/presentation/widgets/circular_container.dart';
+import 'package:nnuroportfolio/values/values.dart';
 
 class TrailingInfo extends StatelessWidget {
   TrailingInfo({
